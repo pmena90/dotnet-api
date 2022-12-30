@@ -3,7 +3,8 @@ Dotnet core api (Boilerplate).
 - MySql 
 - Azure storage (user avatars)
 - Sendgrid
-- JWT token custom auth
+- Account: Register support
+- Account: Login support - JWT token
 
 ## Development
 Create a mysql database and provide the connection-string in the appsettings.json. 
