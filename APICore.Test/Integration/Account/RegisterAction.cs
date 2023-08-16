@@ -45,7 +45,7 @@ namespace APICore.Tests.Integration.Account
                 {
                     Id = 3,
                     Email = "pepe@itguy.com",
-                    FullName = "Pepe Delgado",
+                    FullName = "Pepe Lastname",
                     Gender = 0,
                     Phone = "+53 12345678",
                     Password = @"gM3vIavHvte3fimrk2uVIIoAB//f2TmRuTy4IWwNWp0=",
@@ -62,8 +62,8 @@ namespace APICore.Tests.Integration.Account
             // ARRANGE
             var fakeUserRequest = new SignUpRequest
             {
-                Email = @"carlos@itguy.com",
-                FullName = "Carlos Perez",
+                Email = @"user@itguy.com",
+                FullName = "User Name",
                 Gender = 0,
                 Phone = "+53 12345678",
                 Birthday = DateTime.Now,

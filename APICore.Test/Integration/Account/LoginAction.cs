@@ -7,7 +7,6 @@ using APICore.Data.UoW;
 using APICore.Services;
 using APICore.Services.Exceptions;
 using APICore.Services.Impls;
-using Azure.Storage.Blobs;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -58,8 +57,8 @@ namespace APICore.Tests.Integration.Account
                 await context.Users.AddAsync(new User
                 {
                     Id = 1,
-                    Email = "carlos@itguy.com",
-                    FullName = "Carlos Delgado",
+                    Email = "user@itguy.com",
+                    FullName = "User Name",
                     Gender = 0,
                     Phone = "+53 12345678",
                     Password = @"gM3vIavHvte3fimrk2uVIIoAB//f2TmRuTy4IWwNWp0=",
@@ -76,7 +75,7 @@ namespace APICore.Tests.Integration.Account
             // ARRANGE
             var fakeLoginRequest = new LoginRequest
             {
-                Email = "carlos@itguy.com",
+                Email = "user@itguy.com",
                 Password = "S3cretP@$$"
             };
 
@@ -135,7 +134,7 @@ namespace APICore.Tests.Integration.Account
             // ARRANGE
             var fakeLoginRequest = new LoginRequest
             {
-                Email = "carlos@itguy.com",
+                Email = "user@itguy.com",
                 Password = "Z3cretP@$$"
             };
 

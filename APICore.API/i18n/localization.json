@@ -3,56 +3,56 @@
     "Key": "400",
     "LocalizedValue": {
       "en-US": "Request with malformed syntax.",
-      "es-ES": "Petición mal formada."
+      "es-ES": "Peticiï¿½n mal formada."
     }
   },
   {
     "Key": "400001",
     "LocalizedValue": {
       "en-US": "The email is already in use.",
-      "es-ES": "El email ya está siendo usado."
+      "es-ES": "El email ya estï¿½ siendo usado."
     }
   },
   {
     "Key": "400002",
     "LocalizedValue": {
       "en-US": "The password must have at least 6 chars, including 1 uppercase letter and 1 special character.",
-      "es-ES": "La contraseña requiere 6 caracters, incluyendo al menos 1 letra en mayúsculas y 1 caracter especial."
+      "es-ES": "La contraseï¿½a requiere 6 caracters, incluyendo al menos 1 letra en mayï¿½sculas y 1 caracter especial."
     }
   },
   {
     "Key": "400003",
     "LocalizedValue": {
       "en-US": "The passwords must match.",
-      "es-ES": "Las contraseñas deben coincidir."
+      "es-ES": "Las contraseï¿½as deben coincidir."
     }
   },
   {
     "Key": "400004",
     "LocalizedValue": {
       "en-US": "The old password is incorrect.",
-      "es-ES": "La contraseña anterior es incorrecta."
+      "es-ES": "La contraseï¿½a anterior es incorrecta."
     }
   },
   {
     "Key": "400005",
     "LocalizedValue": {
       "en-US": "The file is null or empty.",
-      "es-ES": "El archivo es nulo o está vacío."
+      "es-ES": "El archivo es nulo o estï¿½ vacï¿½o."
     }
   },
   {
     "Key": "400006",
     "LocalizedValue": {
       "en-US": "The file size is invalid",
-      "es-ES": "El tamaño del archivo no es válido"
+      "es-ES": "El tamaï¿½o del archivo no es vï¿½lido"
     }
   },
   {
     "Key": "400007",
     "LocalizedValue": {
       "en-US": "The type file is invalid",
-      "es-ES": "El tipo del archivo no es válido"
+      "es-ES": "El tipo del archivo no es vï¿½lido"
     }
   },
   {
@@ -67,21 +67,21 @@
     "Key": "400009",
     "LocalizedValue": {
       "en-US": "Invalid token",
-      "es-ES": "Token no válido"
+      "es-ES": "Token no vï¿½lido"
     }
   },
   {
     "Key": "400010",
     "LocalizedValue": {
       "en-US": "Invalid refresh token",
-      "es-ES": "Token de actualización no válido"
+      "es-ES": "Token de actualizaciï¿½n no vï¿½lido"
     }
   },
   {
     "Key": "400011",
     "LocalizedValue": {
       "en-US": "User Email can't be Empty",
-      "es-ES": "El Email de usuario no puede estar vacío"
+      "es-ES": "El Email de usuario no puede estar vacï¿½o"
     }
   },
   //Unauthorized
@@ -89,7 +89,7 @@
     "Key": "401",
     "LocalizedValue": {
       "en-US": "Unauthorized access. Requires user authentication.",
-      "es-ES": "Acceso no autorizado. Requiere autenticación."
+      "es-ES": "Acceso no autorizado. Requiere autenticaciï¿½n."
     }
   },
   {
@@ -104,7 +104,7 @@
     "Key": "403",
     "LocalizedValue": {
       "en-US": "Forbidden request.",
-      "es-ES": "Petición prohibida."
+      "es-ES": "Peticiï¿½n prohibida."
     }
   },
   {
@@ -140,14 +140,14 @@
     "Key": "404002",
     "LocalizedValue": {
       "en-US": "Setting not found.",
-      "es-ES": "Configuración no encontrada."
+      "es-ES": "Configuraciï¿½n no encontrada."
     }
   },
   {
     "Key": "404003",
     "LocalizedValue": {
       "en-US": "Refresh-Token not found.",
-      "es-ES": "Actualización de Token no encontrado."
+      "es-ES": "Actualizaciï¿½n de Token no encontrado."
     }
   },
   //RequestTimeout

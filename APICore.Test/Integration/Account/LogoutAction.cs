@@ -58,8 +58,8 @@ namespace APICore.Tests.Integration.Account
                 await context.Users.AddAsync(new User
                 {
                     Id = 2,
-                    Email = "carlos@itguy.com",
-                    FullName = "Carlos Delgado",
+                    Email = "user@itguy.com",
+                    FullName = "User Name",
                     Gender = 0,
                     Phone = "+53 12345678",
                     Password = @"gM3vIavHvte3fimrk2uVIIoAB//f2TmRuTy4IWwNWp0=",
